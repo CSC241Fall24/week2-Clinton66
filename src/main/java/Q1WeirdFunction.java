@@ -24,7 +24,7 @@ values [ i ] = values [ i - 1] + 2 * values [ i - 2] + 3 * values [ i - 3];
     return values [ n ];
     }
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         System.out.println("Recursive: " + fRecursive(n));
         System.out.println("Iterative: " + fIterative(n));
     }
